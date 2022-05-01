@@ -6,6 +6,6 @@
 2. cd k8s-wordpress/
 3. minikube start
 4. kubectl apply -f nginx_configMap.yaml
-5. kubectl apply -k ./ #duration about 2 minutes
+5. kubectl apply -k ./
 
 for accessing wordpress, type 'minikube service wordpress --url'
